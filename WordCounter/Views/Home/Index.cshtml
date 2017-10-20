@@ -1,16 +1,21 @@
 @{
-  Layout = _Layout;
+  Layout = "_Layout";
 }
 
-<h1>Word Counter</h1>
+
+<!--Form Begins--->
+
 <form action="/results" method="post">
-  <label for="word">Choose a word to count the number of times it is repeaterd in the below string: </label>
-  <input type="text" name="word" required>
-  <br>
-  <br>
-  <label for="str">Enter a String with the above entered word included: </label>
-  <input type="text" name="str" required>
-  <br>
-  <br>
-  <button type="submit" name="button">Check if it is repeated!</button>
+
+<h3> Word Counter</h3>
+   <!--start-->
+ <label  for="word">Choose a word to count the number of times it is repeaterd in the below string:</label>
+ <input type="text" required="required" placeholder="Enter a word" name="word"/>
+ <br>
+ <br>
+ <label class="control-label" for="str">Enter a Sentence with the above entered word included:</label>
+ <input  type="text" required="required"  placeholder="Enter a Sentence"  name="str"/>
+ <br>
+ <br>
+ <button class="btn btn-danger" type="submit" name="button">Check if it is repeated!</button>
 </form>
