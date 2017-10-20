@@ -35,7 +35,7 @@ namespace WordCounter.Tests
     public void CountRepeats_CheckingAbsoluteMatch_int()
     {
       //Arrange
-      RepeatCounter count = new RepeatCounter("Cathedral is for cats","cat");
+      RepeatCounter count = new RepeatCounter("Cathedral isnt for cats","cat");
       var output = 0;
       //Act
       int result = count.CountRepeats();
