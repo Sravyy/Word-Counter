@@ -1,0 +1,10 @@
+<h1>Word Counter</h1>
+
+@if(Model.CountRepeats() == 0)
+{
+  <h2>oops!!! the given Word is not repeated in the Sentence!</h2>
+}
+else
+{
+  <h2>the given Word is repeated @Model.CountRepeats() times!</h2>
+}
