@@ -1,0 +1,8 @@
+.back-img{
+  background-image:
+  linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
+  url("../img/img1.jpg");
+  background-position: fixed;
+  background-attachment: fixed;
+  height : 450px;
+}

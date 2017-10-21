@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 
 
-
 namespace WordCounter
 {
   public class RepeatCounter
@@ -20,6 +19,7 @@ namespace WordCounter
     {
       return _str;
     }
+
     public string GetWord()
     {
       return _word;

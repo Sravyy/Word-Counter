@@ -1,21 +1,38 @@
+
 @{
   Layout = "_Layout";
 }
 
-
+<div class="back-img">
+  <h1> Welcome to Word Counter!</h1>
+</div>
+<br>
+<div class="about">
+  <div class="row">
+    <div class="col-md-6 right">
+      <p>Knowing the word count of a text can be important. For example, if you have to write a minimum or maximum amount of words for an article, essay, report, story, book, paper, you name it. WordCounter will help to make sure its word count reaches a specific requirement or stays within a certain limit.</p>
+    </div>
+    <div class="col-md-6 left">
+      <p>Our Word Counter helps you with it.Give it a try!</p>
+    </div>
+  </div>
+</div>
+<br>
 <!--Form Begins--->
+<div class="jumbotron">
 
-<form action="/results" method="post">
+  <form action="/results" method="post">
 
-<h3> Word Counter</h3>
-   <!--start-->
- <label  for="word">Choose a word to count the number of times it is repeaterd in the below string:</label>
- <input type="text" required="required" placeholder="Enter a word" name="word"/>
- <br>
- <br>
- <label class="control-label" for="str">Enter a Sentence with the above entered word included:</label>
- <input  type="text" required="required"  placeholder="Enter a Sentence"  name="str"/>
- <br>
- <br>
- <button class="btn btn-danger" type="submit" name="button">Check if it is repeated!</button>
-</form>
+   <label  for="word">Choose a word to count the number of times it is repeaterd in the below string:</label>
+   <br>
+   <input type="text" required="required" placeholder="Enter a word" name="word"/>
+   <br>
+   <br>
+   <label class="control-label" for="str">Enter a Sentence with the above entered word included:</label>
+   <br>
+   <input  type="text" required="required"  placeholder="Enter a Sentence"  name="str"/>
+   <br>
+   <br>
+   <button class="btn btn-danger" type="submit" name="button">Check if it is repeated!</button>
+  </form>
+</div>
